@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div>
                 <h2>${cat.breed}</h2>
                 <p>${cat.description}</p>
-                <p>${cat.temperament}</p>
+                <p><b>Temperament:</b>${cat.temperament}</p>
             </div>      
         `;
         catInfo.insertAdjacentHTML('afterbegin', cat.html);
