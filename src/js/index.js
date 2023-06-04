@@ -36,6 +36,9 @@ function populateBreedSelect(breeds) {
   });
 
   breedSelect.style.display = 'block';
+    new SlimSelect({
+      select: '.breed-select',
+    });
 }
 
 async function fetchBreedsList() {
